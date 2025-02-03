@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .blog-post {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>My Personal Blog</h1>
+    
+    <div class="blog-post">
+        <h2>My First Blog Post</h2>
+        <p>Welcome to my blog! This is my first post where I share my thoughts on web development.</p>
+        <img src="first-post.jpg" alt="Coding on a laptop" width="300">
+        <ul>
+            <li>HTML Basics</li>
+            <li>CSS Styling</li>
+            <li>JavaScript for Interactivity</li>
+        </ul>
+        <p>Read more about HTML on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>.</p>
+    </div>
+
+    <div class="blog-post">
+        <h2>Exploring CSS</h2>
+        <p>Today, I explored some cool CSS features that make styling easier.</p>
+        <img src="css-style.jpg" alt="CSS styling example" width="300">
+        <ol>
+            <li>Flexbox</li>
+            <li>Grid Layout</li>
+            <li>CSS Variables</li>
+        </ol>
+        <p>Check out this <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a> website for more tips.</p>
+    </div>
+
+    <div class="blog-post">
+        <h2>JavaScript for Beginners</h2>
+        <p>Understanding the fundamentals of JavaScript is crucial for web development.</p>
+        <img src="javascript-code.jpg" alt="JavaScript code example" width="300">
+        <ul>
+            <li>Variables and Data Types</li>
+            <li>Functions</li>
+            <li>DOM Manipulation</li>
+        </ul>
+        <p>Learn JavaScript on <a href="https://www.javascript.info/" target="_blank">JavaScript.info</a>.</p>
+    </div>
+</body>
+</html>
